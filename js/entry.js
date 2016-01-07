@@ -17,7 +17,6 @@ var update = (model, action) => {
 }
 
 var renderLoop = (channel, counter) => {
-  // initial render
   ReactDOM.render(
     <Hello channel={channel} counter={counter}/>,
     entry
